@@ -103,7 +103,6 @@ body {
     position: absolute;
     right: -60px;
     bottom: 100px;
-    transition: all 0.3s ease;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .content .box::after {
@@ -126,7 +125,6 @@ body {
     color: white;
     font-size: 18px;
     cursor: pointer;
-    transition: all 0.2s ease;
 }
 .content .box i:hover {
     transform: scale(1.2);
@@ -134,4 +132,5 @@ body {
 }
 .content .hidden {
     display: none;
+
 }
